@@ -31,3 +31,12 @@
   width: 0; /* Hide scrollbar */
   height: 0;
 }
+
+@media (max-width: 640px) {
+  .overflow-scroll::-webkit-scrollbar {
+    width: 200; /* Hide scrollbar */
+    height: 200;
+  }
+}
+
+

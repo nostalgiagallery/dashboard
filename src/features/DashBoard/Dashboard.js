@@ -239,12 +239,12 @@ export default function Dashboard({ children }) {
       )}
 
       <div className="flex-1 overflow-scroll">
-        <div className="h-1/6 flex justify-center gap-10 w-full bg-slate-800 p-5">
+        <div className="h-1/6 flex   justify-center gap-10 w-full bg-slate-800 p-5">
           <div className="relative w-2/6">
             <input
               type="text"
               placeholder="Search..."
-              className="border border-gray-300 rounded-lg pl-10 pr-4 py-2 focus:outline-none focus:border-blue-500 bg-slate-700/75 "
+              className="border border-gray-300 rounded-lg pl-10 pr-4 py-2 focus:outline-none focus:border-blue-500 bg-slate-700/75  hidden sm:block"
             />
           </div>
           <div className="relative inline-block text-white">
